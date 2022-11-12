@@ -1,0 +1,26 @@
+body {
+  margin: 20px;
+}
+
+.person-img {
+  width: 160px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.card {
+  display: flex;
+  margin: 0px auto; /* 2 li kullınca ilki top ve bottom, ikincisi left right oluyor */
+
+  justify-content: space-around;
+  width: 600px;
+  background-color: lightblue;
+  border-bottom: 5px solid darkgray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 40px 40px 40px 40px; /* ayrı ayrı aynı satırda verilince, top, right, bottom, left, saat yönü.  */
+  text-align: center;
+}
+
+.borderguide {
+  border: 1px solid red;
+}
